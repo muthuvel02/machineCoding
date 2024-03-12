@@ -1,0 +1,81 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.stepper
+{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom:20px;
+  position: relative;
+ 
+}
+
+.step
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step-number
+{
+   width:30px;
+   height:30px;
+   border-radius: 50%;
+   background-color: #ccc;
+    font-weight: 500;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 5px;
+   z-index: 2;
+}
+
+.step-name
+{
+    font-size: 14px;
+}
+ .active .step-number 
+{
+    background-color: rgb(51, 51, 230);
+    color:wheat;
+}
+.completed .step-number 
+{
+     background-color: green;
+    color: white;
+}
+
+.btn
+{
+    margin-top: 1rem;
+    padding: 8px;
+    border-radius: 10px;
+    border:none;
+    background-color: rgb(68, 56, 209);
+    color:white;
+    font-weight: 500;
+
+}
+
+.progress-bar
+{
+    position: absolute;
+    top:25%;
+    left:0;
+    height:4px;
+    background-color: #ccc;
+}
+.progress
+{
+    height: 100%;
+    background-color: rgb(63, 184, 15);
+    transition: 0.3s ease;
+
+}
+h1
+{
+    text-align: center;
+}

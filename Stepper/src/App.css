@@ -1,0 +1,14 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.stepper
+{
+  display:flex;
+  justify-content: space-between;
+}
+
+.stepper-number
+{
+  background-color: rgb(117, 29, 29);
+}
